@@ -1,5 +1,5 @@
 # 🍅 ketchup-gherkin
-Generate static HTML for .feature files in Gherkin language.
+Generate static HTML for Gherkin language .feature files in JavaScript JS.
 
 ![image](https://github.com/victorxavier10/ketchup-gherkin/assets/35244036/03f3e9ba-a99a-4cfd-8f68-79fe9e283cd9)
 
@@ -59,10 +59,15 @@ npm     v8+
 
 ```json
   "scripts": {
+    "config": "node node_modules/ketchup-gherkin/createConfig.js",
     "ketchup": "node_modules/.bin/nodemon node_modules/.bin/ketchup-gherkin"
   }
 
 ```
+
+### `npm run config`
+
+> This command configure nodemon.
 
 <br/>
 

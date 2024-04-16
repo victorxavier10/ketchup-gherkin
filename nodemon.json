@@ -1,0 +1,4 @@
+{
+    "watch": ["index.js", "ketchup.js", "Features/", "lib/", "bin/"],
+    "ext": "js, css, json, feature"
+}

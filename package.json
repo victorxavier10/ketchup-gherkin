@@ -9,7 +9,16 @@
   "scripts": {
     "ketchup": "nodemon lib/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "Gherkin",
+    "Static HTML",
+    "Documentation",
+    "Cucumber",
+    ".feature",
+    "feature file",
+    "js",
+    "node"
+  ],
   "repository": "git@github.com:victorxavier10/ketchup-gherkin.git",
   "author": "victorxavier10",
   "license": "MIT",

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "ketchup": "nodemon lib/index.js",
-    "postinstall": "node lib/createConfig.js"
+    "postinstall": "node createConfig.js"
   },
   "keywords": [
     "Gherkin",

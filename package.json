@@ -1,0 +1,22 @@
+{
+  "name": "ketchup-gherkin",
+  "version": "1.0.0",
+  "description": "Generate static HTML for .feature files in Gherkin language.",
+  "main": "./lib/index.js",
+  "bin": {
+    "ketchup-gherkin": "bin/ketchup.js"
+  },
+  "scripts": {
+    "ketchup": "nodemon lib/index.js"
+  },
+  "keywords": [],
+  "repository": "git@github.com:victorxavier10/ketchup-gherkin.git",
+  "author": "victorxavier10",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "glob": "^10.3.12",
+    "mark": "^0.10.0",
+    "nodemon": "^3.1.0"
+  }
+}

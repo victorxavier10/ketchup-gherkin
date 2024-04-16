@@ -1,6 +1,6 @@
 {
   "name": "ketchup-gherkin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate static HTML for .feature files in Gherkin language.",
   "main": "./lib/index.js",
   "bin": {

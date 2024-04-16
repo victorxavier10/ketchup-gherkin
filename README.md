@@ -6,3 +6,20 @@ Generate static HTML for .feature files in Gherkin language.
 ## Install
 
 `npm i ketchup-gherkin`
+
+
+## Config
+
+in package.json add
+
+```json
+  "scripts": {
+    "ketchup": "node node_modules/.bin/ketchup-gherkin"
+  }
+
+```
+
+
+## Run
+
+`npm run ketchup`

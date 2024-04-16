@@ -48,6 +48,8 @@ npm     v8+
 
 ### `npm i ketchup-gherkin`
 > This command install the package.
+>
+> [package npm page](https://www.npmjs.com/package/ketchup-gherkin)
 
 <br/>
 
@@ -107,3 +109,6 @@ npm     v8+
 <br/>
 
 ### Enjoy 🍅
+
+> [package github page](https://github.com/victorxavier10/ketchup-gherkin)
+

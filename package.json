@@ -1,13 +1,14 @@
 {
   "name": "ketchup-gherkin",
   "version": "1.0.3",
-  "description": "Generate static HTML for .feature files in Gherkin language.",
+  "description": "Generate static HTML for Gherkin language .feature files in JavaScript JS.",
   "main": "./lib/index.js",
   "bin": {
     "ketchup-gherkin": "bin/ketchup.js"
   },
   "scripts": {
-    "ketchup": "nodemon lib/index.js"
+    "ketchup": "nodemon lib/index.js",
+    "postinstall": "node lib/createConfig.js"
   },
   "keywords": [
     "Gherkin",

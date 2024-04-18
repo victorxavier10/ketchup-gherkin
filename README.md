@@ -1,5 +1,7 @@
 # 🍅 ketchup-gherkin
-Generate static HTML for Gherkin language .feature files in JavaScript JS.
+Generate beautiful HTML pages for Gherkin language .feature files in JavaScript JS.
+
+Supports English and Portuguese.
 
 ![image](https://github.com/victorxavier10/ketchup-gherkin/assets/35244036/03f3e9ba-a99a-4cfd-8f68-79fe9e283cd9)
 
@@ -67,7 +69,7 @@ npm     v8+
 
 ### `npm run config`
 
-> This command configure nodemon.
+> This command configure ketchup.
 
 <br/>
 

@@ -105,9 +105,9 @@ npm     v8+
 
 --
 
-🟨 Features --> Folder with all Features.
+📂 Features --> Folder with all Features.
 
-🟨 feature-name --> Feature folder.
+📂 feature-name --> Feature folder.
 
 🥒 feature.feature --> Feature in Gherkin language.
 

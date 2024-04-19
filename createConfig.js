@@ -41,3 +41,22 @@ if (!fs.existsSync(featureDirPath)) {
         fs.writeFileSync(featureFilePath, featureFileContent);
     }
 }
+
+// Conteúdo para o arquivo nodemon.json
+const configContent = `{
+    "port": 3000,
+    "buttonText": "Search",
+    "resultsTitle": "Search Results",
+    "style": {
+        "font-p-color": "#484848",
+        "button-color": "#FF5A5F",
+        "button-hover": "#E0483E",
+        "font-title-color": "#333",
+        "font-key-color": "#007A87",
+        "mark-color": "#FF5A5F80",
+        "font-mark-color": "#333"
+    }
+}`;
+  
+  // Escreve o ketchup.json no diretório atual
+  fs.writeFileSync(path.join(process.cwd(), 'ketchup.json'), configContent);

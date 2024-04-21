@@ -44,17 +44,19 @@ if (!fs.existsSync(featureDirPath)) {
 
 // Conteúdo para o arquivo nodemon.json
 const configContent = `{
+    "projectName": "ketchup-gherkin",
     "port": 3000,
     "buttonText": "Search",
+    "inputPlaceHolder": "Feature name or content...",
     "resultsTitle": "Search Results",
     "style": {
-        "font-p-color": "#484848",
         "button-color": "#FF5A5F",
         "button-hover": "#E0483E",
         "font-title-color": "#333",
         "font-key-color": "#007A87",
-        "mark-color": "#FF5A5F80",
-        "font-mark-color": "#333"
+        "font-p-color": "#484848",
+        "font-mark-color": "#333",
+        "mark-color": "#FF5A5F80"
     }
 }`;
   

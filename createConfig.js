@@ -3,7 +3,7 @@ const path = require('path');
 
 // Conteúdo para o arquivo nodemon.json
 const nodemonContent = `{
-  "watch": ["index.js", "ketchup.js", "Features/", "lib/", "bin/"],
+  "watch": ["index.js", "ketchup.js", "Features/", "lib/", "bin/", "ketchup.json", "nodemon.json"],
   "ext": "js, css, json, feature"
 }`;
 

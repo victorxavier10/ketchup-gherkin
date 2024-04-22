@@ -1,5 +1,5 @@
 # 🍅 ketchup-gherkin
-Generate beautiful HTML pages for Gherkin language .feature files in JavaScript JS.
+Generate beautiful pages for Gherkin language .feature files in JavaScript JS HTML CSS.
 
 Supports English and Portuguese.
 
@@ -92,24 +92,32 @@ npm     v8+
 > Creates this folder structure Feature/feature-name/feature.feature
 
 ```
-📂 Features
+📂 your-project 🍅
        .
-       ├── 📂 feature-name
-       |            └── 🥒 feature.feature
-       |             
-       ├── 📂 feature-name                     
-       |            ├── 🥒 feature.feature
-       |            └── 🥒 feature.feature
+       ├── 📂 Features
+       |          .
+       |          ├── 📂 feature-name 
+       |          |           └── 🥒 feature.feature
+       |          |
+       |          ├── 📂 feature-name 
+       |          |           ├── 🥒 feature.feature
+       |          |           └── 🥒 feature.feature
+       |          . 
+       ├── 🍅 ketchup.json
        .
 ```
 
 --
 
-🟨 Features --> Folder with all Features.
+📂 your-project 🍅 --> Your project folder.
 
-🟨 feature-name --> Feature folder.
+📂 Features --> Folder with all Features.
+
+📂 feature-name --> Feature folder.
 
 🥒 feature.feature --> Feature in Gherkin language.
+
+🍅 ketchup.json --> ketchup settings.
 
 --
 

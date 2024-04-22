@@ -3,7 +3,7 @@ const path = require('path');
 
 // Conteúdo para o arquivo nodemon.json
 const nodemonContent = `{
-  "watch": ["index.js", "ketchup.js", "Features/", "lib/", "bin/"],
+  "watch": ["index.js", "ketchup.js", "Features/", "lib/", "bin/", "ketchup.json", "nodemon.json"],
   "ext": "js, css, json, feature"
 }`;
 
@@ -41,3 +41,24 @@ if (!fs.existsSync(featureDirPath)) {
         fs.writeFileSync(featureFilePath, featureFileContent);
     }
 }
+
+// Conteúdo para o arquivo nodemon.json
+const configContent = `{
+    "projectName": "ketchup-gherkin",
+    "port": 3000,
+    "buttonText": "Search",
+    "inputPlaceHolder": "Feature name or content...",
+    "resultsTitle": "Search Results",
+    "style": {
+        "button-color": "#FF5A5F",
+        "button-hover": "#E0483E",
+        "font-title-color": "#333",
+        "font-key-color": "#007A87",
+        "font-p-color": "#484848",
+        "font-mark-color": "#333",
+        "mark-color": "#FF5A5F80"
+    }
+}`;
+  
+  // Escreve o ketchup.json no diretório atual
+  fs.writeFileSync(path.join(process.cwd(), 'ketchup.json'), configContent);
